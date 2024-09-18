@@ -86,7 +86,7 @@ export default function Home() {
           {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
           {context.sharedState.finishedLoading ? (
-            <Footer githubUrl={"https://github.com/hadidharmwan/personallity"} hideSocialsInDesktop={true} />
+            <Footer githubUrl={"https://github.com/hadidharmwan/person"} hideSocialsInDesktop={true} />
           ) : (
             <></>
           )}
