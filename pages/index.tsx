@@ -76,8 +76,6 @@ export default function Home() {
         <meta content={meta.description} name="description" />
     
       </Head>
-
- 
         <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full ">
        
           <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />
@@ -94,8 +92,6 @@ export default function Home() {
           )}
           {!isProd && <ScreenSizeDetector />}
         </div>
-      
-    
     </>
   );
 }
